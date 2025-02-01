@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj", "{3B544BE4-BBE4-477E-9607-686516B3CB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjetHeritage", "ObjetHeritage\ObjetHeritage.csproj", "{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3B544BE4-BBE4-477E-9607-686516B3CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B544BE4-BBE4-477E-9607-686516B3CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B544BE4-BBE4-477E-9607-686516B3CB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
