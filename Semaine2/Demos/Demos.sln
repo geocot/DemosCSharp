@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjetHeritage", "ObjetHeritage\ObjetHeritage.csproj", "{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAbstraites", "ClassesAbstraites\ClassesAbstraites.csproj", "{7AB435D2-780A-4696-A35F-C1FAD761D750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74EEFAC5-F02E-454A-A8CD-3B6AA09EF5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
