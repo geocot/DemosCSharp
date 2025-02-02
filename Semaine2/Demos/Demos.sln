@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjetHeritage", "ObjetHerit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAbstraites", "ClassesAbstraites\ClassesAbstraites.csproj", "{7AB435D2-780A-4696-A35F-C1FAD761D750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{BEFF08DD-1E62-46F7-9574-55FC4BE5A48C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals et GetHashCode", "Equals_et_GetHashCode\Equals et GetHashCode.csproj", "{249EB8F3-6A84-45B9-B024-8F60D1B9AB3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB435D2-780A-4696-A35F-C1FAD761D750}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEFF08DD-1E62-46F7-9574-55FC4BE5A48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEFF08DD-1E62-46F7-9574-55FC4BE5A48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEFF08DD-1E62-46F7-9574-55FC4BE5A48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEFF08DD-1E62-46F7-9574-55FC4BE5A48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249EB8F3-6A84-45B9-B024-8F60D1B9AB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249EB8F3-6A84-45B9-B024-8F60D1B9AB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249EB8F3-6A84-45B9-B024-8F60D1B9AB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249EB8F3-6A84-45B9-B024-8F60D1B9AB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

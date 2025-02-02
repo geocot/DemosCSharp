@@ -1,4 +1,4 @@
-﻿namespace Collections
+﻿namespace Equals_et_GetHashCode
 {
     internal class Program
     {
