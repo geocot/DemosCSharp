@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestsUnitaires
 {
-    internal class Calculs
+    public class Calculs
     {
         public double AireRectangle(double largeur, double longueur)
         {
-            return largeur + longueur;
+            return largeur * longueur;
         }
 
         public double AireCercle(double rayon)
