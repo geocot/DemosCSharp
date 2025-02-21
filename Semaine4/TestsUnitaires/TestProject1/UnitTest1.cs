@@ -5,7 +5,7 @@ using TestsUnitaires;
 namespace TestProjet1
 {
     public class Tests
-    {   //https://www.youtube.com/watch?v=24ytq8JP2jI&ab_channel=CuriousDrive%3ASolveCodingProblems%26WinPrizes%21
+    {   
         private Calculs calculs;
 
         [SetUp]
