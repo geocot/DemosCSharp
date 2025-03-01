@@ -25,7 +25,8 @@ namespace SurchargeOperateur
         {
             return $"La coordonnée en x est {_x} et la coordonnée en y est {_y}";
         }
-        //Surcharge en +
+
+        //Surcharge des opérateurs (+)
         public static Point operator +(Point a, Point b)
         {
             Point point = new Point();
@@ -34,12 +35,14 @@ namespace SurchargeOperateur
             return point;
         }
 
+        //Surcharge des opérateurs (-)
         public static Point operator -(Point a, Point b)
         {
             Point point = new Point();
             point.X = a.X - b.X;
-            point.Y= a.Y - b.Y;
+            point.Y = a.Y - b.Y;
             return point;
         }
+
     }
 }
