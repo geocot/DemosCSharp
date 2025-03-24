@@ -41,11 +41,9 @@
             &copy; 2025 - SectionASP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    @if (IsSectionDefined("MesFonctions"))
-    {
-           @RenderSection("MesFonctions", required:true) 
-    }
 
+           @RenderSection("MesFonctions", required:false) 
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
