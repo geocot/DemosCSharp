@@ -1,0 +1,19 @@
+﻿@model List<Planete>
+
+<div class="row mb-2">
+	@foreach (Planete planete in Model)
+	{
+		<div class="card bg-black text-white" style="width:400px; margin:5px">
+			<div class="card-body">
+				<div class="card-title">
+					<h3>@planete.Rang: @planete.Nom</h3>
+					<img class="card-img-top" src="\images\@planete.PathImage" alt="@planete.Nom" />
+					<p class="card-text mb-auto">UA: @planete.UA</p>
+					<p class="card-text mb-auto">Rayon équatorial: @planete.RayonEquatorialKm</p>
+					<p class="card-text mb-auto">Temps révolution: @planete.OrbiteJours</p>
+					<p class="card-text mb-auto">Temps rotation: @planete.RotationJourTerre</p>
+				</div>
+			</div>
+		</div>
+	}
+</div>
