@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using DemoRoutes.Models;
 using Microsoft.AspNetCore.Mvc;
+using vuePartielle.Models;
 
 namespace DemoRoutes.Controllers
 {
@@ -8,17 +9,24 @@ namespace DemoRoutes.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        private static List<Planete> planetes = new List<Planete>()
+        {
+            new Planete("mercure.png", 1, "Mercure", 87, 0.4, 2439, 58),
+            new Planete("venus.png",2, "Vénus",224.7, 0.7, 6051.8,243 ),
+            new Planete("terre.png",3, "Terre",365.25, 1, 6378.1,0.997 )
+        };
+
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
-
-        public IActionResult Index()
+        
+        public IActionResult Index(int id)
         {
-            return View();
+            return View(planetes[id - 1]);
         }
-
-        public IActionResult Privacy()
+          public IActionResult Privacy()
         {
             return View();
         }
