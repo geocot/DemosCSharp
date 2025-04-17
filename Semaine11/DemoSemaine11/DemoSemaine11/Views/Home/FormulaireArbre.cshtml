@@ -1,0 +1,43 @@
+﻿@*Indication pour le model!*@
+@model DemoSemaine11.Models.Arbre
+@*Ajout de la configuration de base*@
+@{
+    ViewData["Title"] = "Formulaire pour arbre";
+}
+@*Formulaire*@
+<h1>Formulaire Arbre</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="FormulaireReception">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Espece" class="control-label"></label>
+                <input asp-for="Espece" class="form-control" />
+                <span asp-validation-for="Espece" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dhp" class="control-label"></label>
+                <input asp-for="Dhp" class="form-control" />
+                <span asp-validation-for="Dhp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hauteur" class="control-label"></label>
+                <input asp-for="Hauteur" class="form-control" />
+                <span asp-validation-for="Hauteur" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Créer" class="btn btn-success" />
+                <input type="reset" value="Effacer" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <img src="~/images/arbres.png" class="img-fluid" />
+    </div>
+</div>

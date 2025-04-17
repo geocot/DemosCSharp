@@ -1,0 +1,47 @@
+﻿@*
+    Vue pour le retour du formulaire
+*@
+@model DemoSemaine11.Models.Arbre
+
+@{
+    ViewData["Title"] = "Affiche le formulaire";
+}
+
+<h1>Affiche le formulaire de l'arbre</h1>
+
+@{
+    double hauteurPied = @Model.Hauteur * 3.2808399;
+}
+
+<h2>Fiche de l'arbre'</h2>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <td>
+            @Model.Id
+        </td>
+    </tr>
+    <tr>
+        <th>Espèce</th>
+        <td>@Model.Espece</td>
+    </tr>
+    <tr>
+        <th>DHP</th>
+        <td>
+            @Model.Dhp
+        </td>
+    </tr>
+    <tr>
+        <th>Hauteur en mètre</th>
+        <td>
+            @Model.Hauteur
+        </td>
+    </tr>
+    <tr>
+        <th>Hauteur en pied</th>
+        <td>
+            @hauteurPied
+        </td>
+    </tr>
+</table>
+
