@@ -31,10 +31,8 @@ namespace DemoSemaine11.Controllers
         [HttpPost]
         public IActionResult FormulaireReception(Arbre arbre)
         {
-            return View("ResFormulaire", arbre);
+            return View("RecFormulaire", arbre);
         }
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

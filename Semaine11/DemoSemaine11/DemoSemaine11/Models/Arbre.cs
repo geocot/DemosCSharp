@@ -2,7 +2,7 @@
 {
     public class Arbre
     {
-        private int id; 
+        private int id;
         private String espece;
         private double dhp;
         private double hauteur;
@@ -45,4 +45,5 @@
         }
 
     }
+
 }
